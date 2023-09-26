@@ -25,6 +25,7 @@ const App = () => {
         {/* Do not remove the main div */}
         <h1>Search item</h1>
         <input type="text" onChange={e=>setName(e.target.value)}/>
+      
         {/* <button onClick={filterFruits}>Search</button> */}
         <ul>
           {
