@@ -6,6 +6,8 @@ const fruits =["apple", "banana", "cherry", "date", "elderberry", "fig"]
 
 const App = () => {
 
+  
+
   const[name,setName]=useState("");
   const[filteredFruits,setFilteredFruits]=useState(fruits);
 
